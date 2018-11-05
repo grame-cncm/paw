@@ -1,0 +1,107 @@
+.navbar{
+  background-color: #8C1515 !important;
+}
+
+.ping{
+  padding-right: 0.8rem;
+}
+
+.navbar-brand{
+  margin-right: 3rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link{
+  font-size: 1.1rem;
+  color: rgba(255,255,255,0.7) !important;
+  padding-right: 0.8rem !important;
+  padding-left: 0.8rem !important;
+}
+
+.nav-link:hover{
+  color: rgba(255,255,255,0.9) !important;
+}
+
+.banner-h1{
+  font-size: 4.2rem;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.banner-h2{
+  font-size: 2.5rem;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.banner-h3{
+  font-size: 2rem;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+/* Carousel base class */
+#myCarousel {
+  padding-top: 3.5rem;
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 6rem;
+  z-index: 10;
+  right: 5%;
+  left: 5%
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+}
+
+.col{
+  /*text-align: justify;*/
+}
+
+p{
+  text-align: justify;
+}
+
+.footer {
+  margin-top: 2rem;
+  bottom: 0;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.footer-content{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.copyright{
+  text-align: center;
+}
+
+td, th{
+  text-align: center;
+  padding: 0.5rem;
+  border-bottom: 1px solid;
+}
+
+.logos{
+  text-align: center;
+}
+
+.btn{
+  background-color: #8C1515 !important;
+  border-color: #8C1515 !important;
+}
