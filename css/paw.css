@@ -1,5 +1,19 @@
+body{
+  background-color: rgb(112,196,194);
+  color: rgba(41,35,92,1);
+}
+
+h2,h3{
+  font-weight: bold;
+}
+
+a{
+  color: white;
+}
+
 .navbar{
-  background-color: #8C1515 !important;
+  background-color: rgba(255,255,255,0.8) !important;
+  /*background-color: rgba(41,35,92,1) !important;*/
 }
 
 .ping{
@@ -10,17 +24,29 @@
   margin-right: 3rem;
   font-weight: bold;
   font-size: 1.5rem;
+  color: rgba(41,35,92,1) !important;
+}
+
+.navbar-nav{
+  padding-left: 2.5rem;
+  border-left: 1px solid; 
+  border-color: rgba(41,35,92,1);
 }
 
 .nav-link{
   font-size: 1.1rem;
-  color: rgba(255,255,255,0.7) !important;
+  color: rgba(41,35,92,1) !important;
   padding-right: 0.8rem !important;
   padding-left: 0.8rem !important;
 }
 
 .nav-link:hover{
-  color: rgba(255,255,255,0.9) !important;
+  color: rgba(41,35,92,0.5) !important;
+}
+
+
+.dropdown-item{
+  color: rgba(41,35,92,1);
 }
 
 .banner-h1{
@@ -57,14 +83,13 @@
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
-  background-color: #777;
+  background-color: rgb(112,196,194);
 }
 .carousel-item > img {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-
 }
 
 .col{
@@ -97,11 +122,23 @@ td, th{
   border-bottom: 1px solid;
 }
 
+hr{
+  background-color: white;
+}
+
 .logos{
   text-align: center;
 }
 
 .btn{
-  background-color: #8C1515 !important;
-  border-color: #8C1515 !important;
+  background-color: rgba(41,35,92,1) !important;
+  border-color: rgba(41,35,92,0.5) !important;
+}
+
+footer{
+  background-color: rgb(82,166,164) !important;
+}
+
+.time{
+  font-weight: bold;
 }
