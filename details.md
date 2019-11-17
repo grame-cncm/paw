@@ -3,7 +3,7 @@
 An introduction to the Faust programming language (https://faust.grame.fr). The workshop will be based on online tools and it is recommended to have the latest version of Chrome installed for AudioWorklet and MIDI support.
 
 # 14:30-15:30, Bela Workshop (Room C156)
-## Liam Donovan and Adan Benito (Augmented Instruments Ltd)
+## Giulio Moro and Adan Benito (Augmented Instruments Ltd)
 The workshop presentation will soon be available 
 
 # 15:00-16:00, Building and Exporting from gen~ (Room C157)
