@@ -19,7 +19,7 @@
 
   <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#"><small>Programmable Audio Workshop</small></a>
+      <a class="navbar-brand" href="#"><b>Programmable Audio Workshop</b></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -49,11 +49,11 @@
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="first-slide" src="img/banner.jpg" alt="First slide">
+          <img class="first-slide" src="img/banner.png" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1 class="banner-h1">Programmable Audio Workshop</h1>
-              <h2 class="banner-h2">December 1, 2018 — GRAME-CNCM, Lyon (France)</h2>
+              <!--<h1 class="banner-h1">Programmable Audio Workshop</h1>-->
+              <!--<h2 class="banner-h2">December 1, 2018 — GRAME-CNCM, Lyon (France)</h2>-->
               <a class="btn btn-lg btn-primary" href="#program-overview" role="button">See Program</a>
             </div>
           </div>
@@ -64,28 +64,20 @@
 
     <div class="container">
       <h2 id="about">About PAW</h2>
+      
+      <p>With 9 talks and 7 workshops, PAW is an intensive day devoted to electronic sounds and programmable audio technologies!</p> 
+      
       <p>
-        Today, musicians and digital artists have no limits in their use of digital technologies.
-        They cross the boundaries of traditional computer platforms and instruments to create hybrid systems,
-        embracing a broad range of mediums.
-        These mediums are all different, but they do have something in common – they’re all programmable.
-        Some platforms have a lot of memory and CPU power, while others have very limited resources and therefore must
-        be programmed
-        with care.
+        <ul>
+          <li>discover innovative audio and music programming languages: Arrp, Faust, Soul, TidalCycles</li> 
+          <li>learn about exciting audio hardware platforms: Bela, but also FPGAs, Teensy, ESP32</li> 
+          <li>write audio plugins for the web</li> 
+          <li>experiment and code ambisonics sound spatialization</li>
+          <li>enjoy and practice live-coding music performance</li>
+        </ul>
       </p>
-      <p>
-        PAW is a unique opportunity to discover the latest developments in programmable audio boards and devices : Bela
-        (Augmented Instruments Ltd.), MOD (MOD devices), OWL (RebelTech), SAM (Analog
-        Devices and Moforte), and Touché (Expressive E).
-
-        But PAW is also a place where these devices and specialized audio programming tools such as
-        Antescofo (IRCAM), Csound (Csound community), Faust (Grame), Gen (Cycling74),
-        JUCE (ROLI), and Kronos (Vesa Norilo) meet.
-      </p>
-      <p>
-        Join us at PAW for a series of talks and practical hands-on workshops given by leading designers, researchers,
-        and entrepreneurs in the field of programmable audio languages and devices!
-      </p>
+      
+      <p>PAW is completely free, but the number of seats is limited. Register as soon as possible at TODO.</p>
 
       <h3>Event Location</h3>
 
@@ -93,8 +85,9 @@
         Campus Saint-Paul<br>
         10 Place des Archives, 69002 Lyon</p>
 
-      <h2 id="program-overview">Program Overview</h2>
+      <hr>
 
+      <h2 id="program-overview">Program Overview</h2>
 
       <div class="row">
 
@@ -118,117 +111,100 @@
               <td>
                 <div class="time">09:00</div>
               </td>
-              <td><a href="http://kronos.vesanorilo.com/">The Kronos Programming Language</a>
-                <br>Vesa Norilo
-                <br>(Post-Doctoral researcher, University of the Arts Helsinki)
+              <td><a href="#ambitools">Ambitools</a><br>
+                Pierre Lecomte<br>
+                (Université Lyon 1 -- Lyon, France)
               </td>
             </tr>
             <tr>
               <td>
                 <div class="time">09:20</div>
               </td>
-              <td><a href="http://bela.io/">Bela, the open-source platform for beautifully responsive interactive audio</a>
-                <br>Giulio Moro
-                <br>(Augmented Instruments Ltd)
+              <td><a href="#soul">The SOUL Platform</a>
+                <br>Julian Storer
+                <br>(ROLI -- London, UK)
               </td>
             </tr>
             <tr>
               <td>
                 <div class="time">09:40</div>
               </td>
-              <td><a href="https://juce.com/">SOUL: JUCE's new direction for audio architecture</a>
-                <br>Julian Storer
-                <br>(Head of Software Architecture, ROLI)
+              <td><a href="#arrp">Arrp</a>
+                <br>Jakob Leben
+                <br>(Limbic Media -- Victoria, Canada)
               </td>
             </tr>
             <tr>
               <td>
                 <div class="time">10:00</div>
               </td>
-              <td><a href="#https://wiki.analog.com/resources/tools-software/sharc-audio-module">
-                  Faust on the Analog Devices SHARC Audio Module</a>
-                <br> Pat Scandalis (Moforte), Julius Smith (Stanford U.)
-
-              </td>
+              <td><em>Coffee Break</em></td>
             </tr>
             <tr>
               <td>
                 <div class="time">10:20</div>
               </td>
-              <td><a href="https://docs.cycling74.com/max7/vignettes/gen_overview">Gen~: It looks like Max, but ain’t
-                  Max</a>
-                <br>Emmanuel Jourdan and Sam Tarakajian
-                <br>(Cycling 74)
+              <td><a href="#spotify">Making Music with AI</a>
+                <br>François Pachet
+                <br>(Spotify Creator Technology Research Lab -- Paris, France)
               </td>
             </tr>
             <tr>
               <td>
                 <div class="time">10:40</div>
               </td>
-              <td><a href="https://hoxtonowl.com/">Musical Programming with Rebel Technology</a>
-                <br>Martin Klang
-                <br>(Director, Rebel Technology Ltd)
+              <td><a href="#faust">Faust Everywhere</a>
+                <br>Yann Orlarey
+                <br>(GRAME-CNCM -- Lyon, France)
               </td>
             </tr>
             <tr>
               <td>
                 <div class="time">11:00</div>
               </td>
-              <td><em>Coffee Break</em></td>
+              <td><a href="#fpga">FPGAs for low latency audio applications?</a>
+                <br>Florent de Dinechin
+                <br>(CITI-Lab/INSA -- Lyon, France)
+              </td>
             </tr>
             <tr>
               <td>
                 <div class="time">11:20</div>
               </td>
-              <td><a href="https://vlazzarini.github.io/paw">MUSIC III to Csound 6.12<br>57 years of Computer Music
-                  Languages</a>
-                <br>Victor Lazzarini
-                <br>(Dean of Faculty of Arts, Celtic Studies and Philosophy, Maynooth U.)
-              </td>
+              <td><em>Coffee Break</em></td>
             </tr>
             <tr>
               <td>
                 <div class="time">11:40</div>
               </td>
-              <td><a href="https://www.antescofo.com/">Antescofo</a>
-                <br> Jean-Louis Giavitto
-                <br> (senior scientist CNRS, IRCAM)
+              <td><a href="#amstram">Amstramgrame</a>
+                <br>Catinca Dumitrascu
+                <br>(GRAME-CNCM -- Lyon, France)
               </td>
             </tr>
-
             <tr>
               <td>
                 <div class="time">12:00</div>
               </td>
-              <td><a href="https://www.moddevices.com/">MOD - A platform for live audio processing</a><br>
-                Gianfranco Ceccolini
-                <br>(CPO & Founder, MOD Devices)
+              <td><a href="#faust-embedded">Ultra-affordable electronic musical instruments</a>
+                <br>Romain Michon
+                <br>(GRAME-CNCM -- Lyon, France)
               </td>
             </tr>
-
             <tr>
               <td>
                 <div class="time">12:20</div>
               </td>
-              <td><a href="https://faust.grame.fr">The building of the Faust ecosystem</a>
-                <br>Yann Orlarey
-                <br>(Scientific Director, GRAME)
+              <td><a href="#webaudio">21 high-quality guitar FX WebAudio Plugins in 21 days!</a>
+                <br>Michel Buffa
+                <br>(Université de la Côte d'Azur -- Sophia Antipolis, France)
               </td>
             </tr>
             <tr>
               <td>
                 <div class="time">12:40</div>
               </td>
-              <td><a href="https://www.expressivee.com/">Touché</a>
-                <br>Victor Grimaldi
-                <br>(Co-founder and CTO, EXPRESSIVEE)
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="time">13:00</div>
-              </td>
-              <td></td>
+              <td><em>Lunch Break</em></td>
             </tr>
           </table>
         </div>
@@ -244,283 +220,156 @@
               <td>
                 <div class="time">14:00</div>
               </td>
-              <td></td>
-              <td>Faust</td>
-            </tr>
-            <tr>
-              <td>
-                <div class="time">14:30</div>
-              </td>
-              <td>Bela</td>
-              <td>Faust</td>
+              <td><a href="#bela-workshop">Bela</a></td>
+              <td><a href="#webaudio-workshop">Webaudio Plugins</a></td>
             </tr>
             <tr>
               <td>
                 <div class="time">15:00</div>
               </td>
-              <td>Bela</td>
-              <td>Gen</td>
-            </tr>
-            <tr>
-              <td>
-                <div class="time">15:30</div>
-              </td>
-              <td>SAM</td>
-              <td>Gen</td>
+              <td><a href="#embedded-workshop">Embedded Faust</a></td>
+              <td><a href="#arrp-workshop">Arrp</a></td>
             </tr>
             <tr>
               <td>
                 <div class="time">16:00</div>
               </td>
-              <td>SAM</td>
-              <td>Csound</td>
-            </tr>
-            <tr>
-              <td>
-                <div class="time">16:30</div>
-              </td>
-              <td>Owl</td>
-              <td>Csound</td>
+              <td><a href="#spat-workshop">Sound Spatialization</a></td>
+              <td><a href="#soul-workshop">Soul</a></td>
             </tr>
             <tr>
               <td>
                 <div class="time">17:00</div>
               </td>
-              <td>Owl</td>
-              <td>Faust with JUCE</td>
-            </tr>
-            <tr>
-              <td>
-                <div class="time">17:30</div>
-              </td>
-              <td>MOD</td>
-              <td>Faust with JUCE</td>
+              <td><a href="#livecoding-workshop">Live Coding</a></td>
+              <td><a href="#livecoding-workshop">Live Coding</a></td>
             </tr>
             <tr>
               <td>
                 <div class="time">18:00</div>
               </td>
-              <td>MOD</td>
-              <td>Kronos</td>
-            </tr>
-            <tr>
-              <td>
-                <div class="time">18:30</div>
-              </td>
-              <td>Antescofo</td>
-              <td>Kronos</td>
-            </tr>
-            <tr>
-              <td>
-                <div class="time">19:00</div>
-              </td>
-              <td>Antescofo</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>
-                <div class="time">19:30</div>
-              </td>
               <td></td>
               <td></td>
             </tr>
-
           </table>
 
         </div>
       </div>
+      
       <hr>
+      
       <h2 id="program-details">Program Details</h2>
-      <h3>14:00-15:00, Faust Workshop (Room C157)</h3>
+      
+      <h3>08:30-09:00, Registration</h3>
+      
+      <h3 id="ambitools">09:00-09:20, <a href="http://www.sekisushai.net/ambitools/">Ambitools</a> (Room C157)</h3>
 
-      <p><em> Please check the specific requirements of each workshop. In general you will need a laptop and
-          headphones,
-          as well as some specific softwares.</em></p>
+      <h4>Pierre Lecomte (Université Lyon 1 -- Lyon, France)</h4>
 
-      <h4 id="yannorlareygrame">Yann Orlarey (Grame)</h4>
+      <p>Ambitools, sound field synthesis with higher-order ambisonics and Faust.</p>
+      
+      <h3 id="soul">09:20-09:40, <a href="https://soul.dev/">Soul</a> (Room C157)</h3>
 
-      <p>An introduction to the Faust programming language (<a href="https://faust.grame.fr">https://faust.grame.fr</a>).
-        The workshop will be based on online
-        tools, in particular the Faust <a href="https://faust.grame.fr/editor">editor</a>.
-        It is recommended to have the latest version of <a href="https://www.google.fr/chrome/">Chrome</a> installed on
-        your laptop for AudioWorklet and MIDI support. It is also recommended to install a virtual MIDI keyboard like
-        <a href="http://www.manyetas.com/creed/midikeys.html">MidiKeys</a> for the Macintosh.
-        Please bring also headphones. </p>
+      <h4>Julian Storer (ROLI -- London, UK)</h4>
 
-      <p>All materials for the workshop available <a href="https://faust.grame.fr/doc/tutorials/index.html#programmable-audio-workshop-paw-introduction-to-faust">here</a>.</p>
+      <p>The SOUL Platform - the journey from announcement to beta release!</p>
+      
+      <h3 id="arrp">09:40-10:00, <a href="https://github.com/jleben/arrp">Arrp</a> (Room C157)</h3>
 
-      <h3 id="14301530belaworkshoproomc156">14:30-15:30, Bela Workshop (Room C156)</h3>
+      <h4>Jakob Leben (Limbic Media -- Victoria, Canada)</h4>
 
-      <h4 id="liamdonovanandadanbenitoaugmentedinstrumentsltd">Giulio Moro and Adan Benito (Augmented Instruments Ltd)</h4>
+      <p>Arrp - a language for simple and efficient processing of multi-dimensional signals with different rates.</p>
+      
+      <h3>10:00-10:20, Coffee Break</h3>
+      
+      <h3 id="spotify">10:20-10:40, <a href="https://www.francoispachet.fr/">Making Music with AI</a> (Room C157)</h3>
+
+      <h4>François Pachet (Spotify Creator Technology Research Lab -- Paris, France)</h4>
+
+      <p>Making Music with AI: the main challenges behind the use of AI and machine learning for assisted composition.</p>
+      
+      <h3 id="faust">10:40-11:00, <a href="https://faust.grame.fr">Faust Everywhere</a> (Room C157)</h3>
+
+      <h4>Yann Orlarey (GRAME-CNCM -- Lyon, France)</h4>
+
+      <p>Faust Everywhere: turning Faust into a ubiquitous platform.</p>
+
+      <h3 id="fpga">11:00-11:20, <a href="http://www.citi-lab.fr/">FPGAs for low latency audio applications?</a> (Room C157)</h3>
+
+      <h4>Florent de Dinechin (CITI-Lab/INSA -- Lyon, France)</h4>
+
+      <p>Are Field Gate Programmable Arrays (FPGA) ready for low latency audio applications?</p>
+      
+      <h3>11:20-11:40, Coffee Break</h3>
+      
+      <h3 id="faust">11:40-12:00, <a href="https://www.grame.fr/articles/am-stram-grame-5d83968d1b97e">Amstramgrame</a> (Room C157)</h3>
+
+      <h4>Catinca Dumitrascu (GRAME-CNCM -- Lyon, France)</h4>
+
+      <p>Amstramgrame, the junior computer music programming laboratory.</p>
+      
+      <h3 id="faust-embedded">12:00-12:20, <a href="https://faust.grame.fr">Ultra-affordable electronic musical instruments</a> (Room C157)</h3>
+
+      <h4>Romain Michon (GRAME-CNCM -- Lyon, France)</h4>
+
+      <p>Ultra-affordable embedded electronic musical instruments with Faust.</p>
+      
+      <h3 id="webaudio">12:20-12:40, <a href="https://faust.grame.fr">21 high-quality guitar FX WebAudio Plugins in 21 days!</a> (Room C157)</h3>
+
+      <h4>Michel Buffa (Université de la Côte d'Azur -- Sophia Antipolis, France)</h4>
+
+      <p>Make 21 high-quality guitar FX WebAudio Plugins (WAPs) from Faust code, in 21 days!</p>
+      
+      <h3>12:40-14:00, Lunch Break</h3>
+      
+      <h3 id="bela-workshop">14:00-15:00, Bela Workshop (Room C156)</h3>
+
+      <h4>Adan Benito Temprano and Andrea Guidi (Bela -- UK, London)</h4>
 
       <p>Bela is a maker platform for creating beautifully responsive audio and interactive applications.</p>
+      <p>This hands-on workshop will give an overview on how to create interactive musical embedded projects using our platform, showcasing some of the most useful features of Bela, such as the browser-based development environment, a built-in oscilloscope, sensor connectivity capabilities and support for many programming languages.</p>
+      <p>No special requirements are needed, just bring a computer with a working web browser on it, headphones and you are all set, we will provide Bela kits, breadboards and other electronics.</p>
+      
+      <h3 id="webaudio-workshop">14:00-15:00, WebAudio Plugins Workshop (Room C157)</h3>
 
-      <p>This hands-on workshop will give an overview on how to create interactive musical embedded projects using our
-        platform,
-        showcasing some of the most useful features of Bela, such as the browser-based development environment, a
-        built-in
-        oscilloscope, sensor connectivity capabilities and support for many programming languages.</p>
+      <h4>Michel Buffa (Université de la Côte d'Azur -- Sophia Antipolis, France)</h4>
 
-      <p>No special requirements are needed, just bring a computer with a working web browser on it, headphones
-        and you are all
-        set, we will
-        provide Bela kits, breadboards and other electronics.</p>
+      <p>Making Faust WebAudio Plugins and publishing them to online hosts (virtual pedalboard for guitarists for live performances, online DAWs).</p>
+      
+      <h3 id="embedded-workshop">15:00-16:00, Programming audio DSP on microcontroller-based boards (Room C156)</h3>
 
-      <h3 id="15001600buildingandexportingfromgentroomc157">15:00-16:00, Building and Exporting from gen~ (Room C157)</h3>
+      <h4>Romain Michon (GRAME-CNCM -- Lyon, France)</h4>
 
-      <h4 id="emmanueljourdanandsamtarakajianbothsoftwareengineersatcycling74">Emmanuel Jourdan and Sam Tarakajian,
-        both
-        Software Engineers at Cycling '74</h4>
+      <p>Faust can now be used to program a wide range of embedded platforms to carry out real-time audio DSP tasks. In particular, an effort was made in recent years to target powerful microcontroller-based boards such as the Teensy and the ESP-32. Despite some limitations (e.g., computational power, memory, etc.), this type of chip offers many advantages over systems used traditionally for real-time audio DSP (e.g., DSPs, embedded Linux systems, etc.) such as boot time, ultra-low latency, price, etc. In this short tutorial, we'll walk you through the steps of programming a Teensy 4.0 and an ESP-32-based board (TTGO T-Audio) with Faust to implement synthesizers and audio effects. Finally, we'll demonstrate towards the end of the workshop how Faust can be used to program other types of embedded systems such as Android smartphones.</p>
+      
+      <h3 id="arrp-workshop">15:00-16:00, Sound synthesis and analysis with Arrp (Room C157)</h3>
 
-      <p>In this workshop, we’ll look at how to build some interesting audio components using gen~. The gen~ object
-        provides
-        some capabilities that Max cannot, and we’ll look at how these are useful when building audio tools. Finally,
-        we’ll
-        see how to take the exported code and use it in a simple target.</p>
+      <h4>Jakob Leben (Limbic Media -- Victoria, Canada)</h4>
 
-      <p>Before attending this workshop, you should download and install Max 8 from cycling74.com (a free demo is
-        available,
-        as is an inexpensive monthly subscription). If you would like to follow along with gen~ export to VST and Audio
-        Unit, then you should download and install JUCE.
-        If you wish to export to VST3, there is some additional setup, documented on the JUCE website
-        (<a href="https://docs.juce.com/master/tutorial_create_projucer_basic_plugin.html">https://docs.juce.com/master/tutorial_create_projucer_basic_plugin.html</a>).
-        Also, make sure you have a VST/AU
-        host on
-        your machine (Max itself is such a host).
-        Materials covered in this workshop will be available at <A href="https://github.com/Cycling74/gen-workshop">https://github.com/Cycling74/gen-workshop</A>,
-        though it is
-        not necessary to download them.
-      </p>
+      <p>The workshop will introduce the unique syntax of the Arrp language which allows almost literal translation of mathematical equations for signal processing into code. The support for multi-dimensional signals and signals with different rates enables intuitive implementation of audio synthesis, processing as well as analysis algorithms. Function polymorphism supports implementation of highly reusable functions. Participants will be able to try Arrp in an online programming environment using a web browser, but limited to short input and output streams in text format. It will be demonstrated how to use Arrp to process sound files or real-time audio, and how to integrate the C++ code generated by the Arrp compiler into larger projects. A ready-to-use Arrp compiler for Linux and Mac OS will be available for download, and participants are encouraged to have installed a C++ compiler with support for C++17.</p>
+      
+      <h3 id="spat-workshop">16:00-17:00, Sound spatialization with Faust: from stereo to VBAP (Room C156)</h3>
 
-      <h3 id="15301630howtorunfaustalgorithmsonthesharcaudiomoduledeveloperboardsroomc156">15:30-16:30, How to run
-        Faust
-        Algorithms on the SHARC Audio Module developer boards (Room C156)</h3>
+      <h4>Pierre Lecomte (Université Lyon 1 -- Lyon, France)</h4>
 
-      <h4 id="patscandalismofortejuliussmithstanforduraphaelpanis">Pat Scandalis (Moforte), Julius Smith (Stanford U.),
-        Raphael Panis</h4>
+      <p>In this workshop, we will review the laws of stereophony and the Vector Based Amplitude Panning (VBAP) sound spatialization technique. From the theory, we will program several plugins with Faust, to spatialize sound sources on a loudspeaker array.</p>
+      
+      <h3 id="soul-workshop">16:00-17:00, Building and deploying SOUL effects and synths (Room C157)</h3>
 
-      <p>The recently released developer board for SHARC DSPs (SHARC Audio Module) has built-in framework support for
-        compiling Faust algorithms to run natively on the board. The SHARC Audio Module has dual core 500MHz Griffin
-        processor, stereo audio in/out and support for MIDI via a FIN daughter card. </p>
+      <h4>Julian Storer and Cesare Ferrari (ROLI -- London, UK)</h4>
 
-      <p>This is a hands-on workshop on the steps needed to setup and use both the Faust and CCES tool chain for
-        compiling
-        Faust algorithms to the board. </p>
+      <p>We'll walk through the process of building a chorus and a monosynth in SOUL, with attendees following along using either the web playground, the command-line tools, or Tracktion Waveform as their IDE. Towards the end of the workshop, we're hoping to be able to bring some guest hardware on which we can run people's creations!</p>
+      
+      <h3 id="livecoding-workshop">17:00-18:00, Introduction to live-coding with TidalCycles (Room C156+C157)</h3>
 
-      <h3 id="16001700webaudiocsoundroomc157">16:00-17:00, WebAudio Csound (Room C157)</h3>
+      <h4>Agathe Herrou (Lyon, France)</h4>
 
-      <h4 id="victorlazzarinideanoffacultyofartscelticstudiesandphilosophymaynoothu">Victor Lazzarini (Dean of Faculty
-        of
-        Arts, Celtic Studies and Philosophy, Maynooth U.)</h4>
-
-      <p>This workshop will look at how Csound can be used in the web platform, under the most common browsers. The JS
-        APIs
-        will be introduced along with a number of code examples.</p>
-
-      <p>The only requirement might be a text editor and a web browser. Familiarity with git might be good,
-        as well as git itself, although this might not be completely required.</p>
-
-      <p>All materials for the workshop at <a href="https://vlazzarini.github.io/paw">https://vlazzarini.github.io/paw</a></p>
-
-      <h3>16:30-17:30, Rebel Technology musical programming and modular synthesis workshop (Room C156)</h3>
-
-      <h4>Martin Klang (RebelTech)</h4>
-
-      <p>Welcome to the Rebel Technology musical programming and modular synthesis workshop. This workshop will serve
-        as both
-        an introduction to musical programming and music making with modular synthesisers, and as a showcase of some of
-        the
-        emerging, hybrid ways of working with computers and Eurorack modulars. We will also showcase some of our brand
-        new
-        products: Alchemist, Wizard and Magus, which were recently Kickstarted.</p>
-
-      <p>Rebel Technology make highly innovative and open source modular synthesizers in London since more than 8
-        years. They
-        are the creators of the OWL which can run patches written by the user in Max Gen, Pure Data, Faust or C++,
-        allowing
-        everyone to develop their own unique hardware instruments.</p>
-
-      <h3>17:00-18:00, Faust with JUCE Workshop (Room C157)</h3>
-
-      <h4>Stéphane Letz (GRAME), Romain Michon (GRAME)</h4>
-      <p>
-        In this workshop, we'll present two different ways to produce JUCE applications from Faust sources:
-        <ul>
-          <li>Using the <a href=https://github.com/grame-cncm/faust/tree/master-dev/architecture/juce> <b>faust2juce</b></a>
-            tool to create ready-to-use monophonic or polyphonic applications and plugins with automatically generated
-            Graphical User Interface, MIDI and OSC control.
-          <li>Using the <a href=https://github.com/grame-cncm/faust/tree/master-dev/architecture/api> <b>faust2api</b></a>
-            tool to create DSP/audio engines to be used with custom JUCE code to create applications or plugins.
-            Several concrete examples will be provided.
-        </ul>
-      </p>
-      <p>Useful information about the structure of the Faust architecture system will be provided as well.</p>
-      <p>Make sure that you install <a href="https://shop.juce.com/get-juce">JUCE</a>
-        before taking the workshop!</p>
-
-      <h3>17:30-18:30, MOD Duo as a target platform for
-        audio
-        programming (Room C156)</h3>
-
-      <h4>Gianfranco Ceccolini (CPO &amp; Founder, MOD Devices), Jakob Dübel</h4>
-
-      <p>We will give an overview on the many different paths - C/C++ coding, MaxMSP and Faust - of sound design / DSP
-        coding
-        with the MOD Duo as the final target platform.</p>
-
-      <p>Useful resources for the workshop:</p>
-
-      <ul>
-        <li>For plugin building: <a href="https://wiki.moddevices.com/wiki/How_To_Use_Docker_Toolbox_With_MPB">https://wiki.moddevices.com/wiki/How_To_Use_Docker_Toolbox_With_MPB</a></li>
-
-        <li>For MaxMSP users, the MOD Duo package: <a href="https://cycling74.com/articles/content-you-need-the-mod-duo-package">https://cycling74.com/articles/content-you-need-the-mod-duo-package
-          </a>
-        </li>
-
-        <li>For interfaces: <a href="https://wiki.moddevices.com/wiki/MOD_SDK ">https://wiki.moddevices.com/wiki/MOD_SDK
-          </a></li>
-      </ul>
-
-      <h3 id="18001900kronosworkshoproomc157">18:00-19:00, Kronos Workshop (Room C157)</h3>
-
-      <h4 id="vesanorilopostdoctoralresearcheruniversityoftheartshelsinki">Vesa Norilo (Post-Doctoral researcher,
-        University
-        of the Arts Helsinki)</h4>
-
-      <p>Kronos is a multi-rate signal processing language, modeling audio processors as discrete reactive systems.
-        It's central idea is to provide a very efficient runtime performance for an expressive source language.
-        Types and ad-hoc polymorphism enable code reuse, but are provided as zero-cost abstractions: they are backed by
-        a LLVM-based, statically typed optimizing compiler.
-        The presentation will cover the fundamentals of the Kronos programming language.
-        In the workshop, we will explore the newly developed visual programming interface.</p>
-      <ul>
-        <li>Kronos: <a href="https://bitbucket.org/vnorilo/k3">https://bitbucket.org/vnorilo/k3</a></li>
-      </ul>
-
-      <h3 id="18301930anstescofoworkshoproomc156">18:30-19:30, Antescofo Workshop (Room C156)</h3>
-
-      <h4 id="jeanlouisgiavittoircam">Jean-Louis Giavitto (IRCAM)</h4>
-
-      <p>Antescofo~ is a modular polyphonic Score Following system as well as a
-        Synchronous Programming language for musical composition. The module
-        allows for automatic recognition of music score position and tempo from
-        a realtime audio Stream coming from performer(s), making it possible to
-        synchronize an instrumental performance with computer realized elements.
-        The synchronous language within Antescofo allows flexible writing of
-        time and interaction in computer music.</p>
-
-      <p>The presentation will focus on the programing language part with an
-        explanation of the timed and event-based model of time, the notion of
-        temporal scope used to control the time progression of the execution
-        with respect to external events and tempi, and the continuous control
-        structure available in the language.</p>
-      <ul>
-        <li>Antescofo: <a href="http://forumnet.ircam.fr/shop/en/forumnet/44-antescofo.html">http://forumnet.ircam.fr/shop/en/forumnet/44-antescofo.html</a></li>
-        <li>Resources: <a href="http://repmus.ircam.fr/giavitto/paw2018">http://repmus.ircam.fr/giavitto/paw2018</a></li>
-      </ul>
+      <p>TidalCycles is a programming language derived from Haskell for the live-coding of music. This workshop will be an introduction to the different notions used in pattern-based live-coding, and to the TidalCycles language (including a crash course in Haskell). Some experience in programming in general, and in particular functional programming, would be a definite plus, but the workshop will be designed to be accessible to non-coders as well.</p> 
+      <p>Ressources: It would be better for attendees to have TidalCycles installed. Installation instructions can be found here (<a href="https://tidalcycles.org/index.php/Installation">https://tidalcycles.org/index.php/Installation</a>)</p>
+      
       <hr>
       <h2 id="registration-contact">Registration/Contact</h2>
-      <p><b>Participants must register online</b>: <a href="http://urlz.fr/888P">http://urlz.fr/888P</a>. Registration
+      <p><b>Participants must register online</b>: TODO. Registration
         is <b>free</b> in the limit of available seats.</p>
       <p>Feel free to write your questions to <a href="#">orlarey_at_grame_dot_fr</a>.</p>
     </div>
@@ -529,7 +378,7 @@
       <div class="container footer-content">
         <div id="logos" class="logos">
           <a href="https://faust.grame.fr"><img src=img/logoFaust.png width=30%></a>
-          <a href="http://grame.fr"><img src=img/logoGRAME.svg width=20%></a>
+          <a href="http://grame.fr"><img src=img/logoGrame.png width=20%></a>
         </div>
         <div class="copyright">
           <hr>
