@@ -1,20 +1,37 @@
 body{
-  background-color: #081138;
+  background-color: #081138f5;
   color: #F25620;
 }
 
-h2,h3{
+h1 {
   margin-top: 3rem;
-  font-weight: bold;
+  font-size: 6rem;
+  color: #F25620;
+  font-weight: regular;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2{
+  margin-top: 3rem;
+  font-size: 3rem;
+  font-weight: regular;
+  color: #F25620;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 h3 {
+  margin-top: 3rem;
+  font-weight: bold;
   font-size: 1.5rem;
   color: #F25620;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 h4 {
   font-size: 1.25rem;
+  color: #F78B5C;
+  font-family: 'Roboto Condensed', sans-serif;
+
 }
 
 a{
