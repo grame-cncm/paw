@@ -166,4 +166,10 @@ footer{
 
 .time{
   font-weight: bold;
+  
+}
+
+.lighttime{
+  font-weight: bold;
+  color: #928fa8 !important;
 }
