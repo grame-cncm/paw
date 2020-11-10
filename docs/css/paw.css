@@ -40,7 +40,7 @@ a{
 }
 
 .navbar{
-  background-color: #F25620 !important;
+  background-color: #F25620f8 !important;
 }
 
 .ping{
@@ -98,7 +98,7 @@ a{
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 9rem;
+  bottom: 23rem;
   z-index: 10;
   right: 5%;
   left: 5%
@@ -107,7 +107,7 @@ a{
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 52rem;
-  background-color: #081138;
+  background-color: #394E65;
 }
 .carousel-item > img {
   position: absolute;
