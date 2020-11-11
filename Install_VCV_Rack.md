@@ -1,4 +1,4 @@
-# Installation for **Using Faust with VCV Rack** workshop
+# Installation for "Using Faust with VCV Rack" workshop
 
 You'll have to follow described steps in order to be able to compile Faust DSP code during the workshop.
 
