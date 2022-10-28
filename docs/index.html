@@ -285,6 +285,12 @@
       <p>The goal of this workshop is to discover the first audio DSP compiler targeting FPGAs using the Faust programming language. Field Programmable Gate Arrays (FPGAs) provide unparalleled audio latency and computational power, making them a better fit for audio processing than traditional CPUs. But programming them is extremely complex and out of reach to non-specialized engineers as well as to most people in the audio community. That's where Faust comes to the rescue!</p>
       <p>By the end of the workshop, you should be able to compile your own DSP on a Xilinx FPGA using the opensource SyFaLa toolchain and control it in real-time (either with a software interface or a hardware board). You should also have a good global understanding of the possibility that such a platform has to offer for real-time audio processing.</p>
 
+      <h2><a href="#philippe">Johann Philippe</a>: Musical Time With Faust</h2>
+
+      <p>Faust favorite task is to work with streams. While it could be any kind of stream, it focuses on audio streams, generating efficient and optimized code for various environments. Though, musicians will sometimes find it is difficult to compose music directly with Faust as they would do in Csound, SuperCollider, or PureData. Indeed, Faust itself may not seem particularly geared for time structures, conditional scheduling (...): it may seem to only handle sample rate time. Moreover, Faust is not a runtime environment itself, which might make musical composition even more complex.</p>
+
+      <p>In this workshop, we will talk about Faust and time, and show how musical structures can be built within the Functional Audio Stream. First we will make a tour of pure Faust hacking solutions to handle time. We will write some simple algorithms and describe mechanisms to control the audio flow in musical situations, trying - as often as possible - to avoid systematic audio rate control and inherent CPU waste. Then, we will start to explore Faust's virtuosity in different ecosystems - such as Csound, DAW's (...) - to see how these backends can be used to handle time elasticity with Faust. Eventually, we will certainly conclude that a strongly timed - well-designed - interpreted - open-source programming language could perfectly embrace the requirements of a musical scheduler and runtime environment for Faust.</p>
+
       <!--
 
       <h3>09:00-09:30, Registration</h3>
@@ -463,6 +469,9 @@
 
       <h2 id="popoff">Maxime Popoff</h2>
       <p>Maxime Popoff is a PhD candidate at INSA Lyon (Institut National des Sciences Appliquées), specialized in electronic and embedded systems. He studied at Grenoble-INP and worked as an engineer at the CEA Grenoble and then at Inria where he joined the Emeraude team (INSA Lyon, Inria, GRAME) in 2020. His research work focuses on embedded audio platforms and their programming.</p>
+
+      <h2 id="philippe">Johann Philippe</h2>
+      <p>Electroacoustic music composer and computer music designer at IRCAM, Johann Philippe focuses his artistic research on creative coding and electronic performance. Persuaded that musical adventure is something to be shared, he also works with the transmission department of GRAME. During holidays, he contributes to the development of open-source musical technologies ecosystems such as Csound, Faust, as well as his own tools.</p>
 
       <h1 id="registration-contact">Registration/Contact</h1>
       <p><b>Participants must register online</b>: <a href="TODO">PAW 2022 REGISTRATION</a>. Registration is <b>free</b> within the limit of available seats.</p>
