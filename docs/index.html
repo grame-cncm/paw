@@ -151,8 +151,8 @@
                 <div class="time">12:00</div>
               </td>
               <td>
-                <i><a href="#moro-talk">Low Latency on the BELA Board</a></i><br>
-                <a href="#moro">Giulio Moro and Adán Benito Temprano</a><br>
+                <i><a href="#temprano-talk">Low Latency Interaction With Bela: What, Why and How?</a></i><br>
+                <a href="#moro">Adán Benito Temprano and Clemens Wegener</a><br>
                 (BELA, UK)
               </td>
             </tr>
@@ -228,8 +228,8 @@
                 <div class="time">17:00</div>
               </td>
               <td>
-                <i><a href="#moro-workshop">BELA Workshop</a></i><br>
-                <a href="#moro">Giulio Moro and Adán Benito Temprano</a><br>
+                <i><a href="#temprano-workshop">Interactive Audio and Haptics On Bela</a></i><br>
+                <a href="#temprano">Adán Benito Temprano</a> and <a href="#wegener">Clemens Wegener</a><br>
                 (BELA, UK)
               </td>
             </tr>
@@ -269,7 +269,7 @@
 
       <h2 id="alexandre-talk"><b>09:30:</b> <a href="#alexandre">Loïc Alexandre</a> — Feedback Acoustic Noise Control with Faust on FPGA: Application to Noise Reduction in Headphones</h2>
 
-      <p>This work studies the feedback Active Noise Control (ANC) in a headphone with a digital filter implemented on a FPGA instead of an analog filter, in the context of a pedagogical practice bench. The digital approach allows greater flexibility in setting the feedback ANC filter but brings an additional latency that can compromise the ANC efficiency. The principle of feedback ANC in headphones is reviewed and the choice of a biquadratic filter as a feedback ANC filter is argued. The digital filter is programmed in the FAUST language and compiled on a FPGA platform. An experimental validation is carried out to compare the attenuation performance between the digital and analog biquadratic filters. The results show similar or even better low frequency attenuation for some configurations of the digital biquadratic filter compared to the analog filter. Finally, a digital filter cascading two biquads is studied and shows a bandwidth broadening where the ANC is effective.</p>
+      <p>This work studies the feedback Active Noise Control (ANC) in a headphone with a digital filter implemented on a FPGA instead of an analog filter, in the context of a pedagogical practice bench. The digital approach allows greater flexibility in setting the feedback ANC filter <a href="#temprano">Adán Benito Temprano</a> and <a href="#wegener">Clemens Wegener</a>but brings an additional latency that can compromise the ANC efficiency. The principle of feedback ANC in headphones is reviewed and the choice of a biquadratic filter as a feedback ANC filter is argued. The digital filter is programmed in the FAUST language and compiled on a FPGA platform. An experimental validation is carried out to compare the attenuation performance between the digital and analog biquadratic filters. The results show similar or even better low frequency attenuation for some configurations of the digital biquadratic filter compared to the analog filter. Finally, a digital filter cascading two biquads is studied and shows a bandwidth broadening where the ANC is effective.</p>
 
       <h2 id="lopez-talk"><b>10:00: </b><a href="#lopez">Fernando Lopez-Lezcano</a> — Audio Processing and Streaming for the Quarantine Sessions, a Distributed Jam Session Concert Series</h2>
 
@@ -284,6 +284,11 @@
       <h2 id="kiefer-talk"><b>11:30: </b><a href="#kiefer">Chris Kiefer</a> — Signal Processing with Machine Learning on FPGAs</h2>
 
       <p>Fied Programmable Gate Arrays (FPGAs) enable us to make customised logic circuits in hardware. Recently, open source projects have made this technology more accessible for non-industrial users.  FPGAs can generate and process sound with extremely high speed and low latency compared to conventional computers, although they are also limited by memory and lack of specialist processing (e.g floating point units).  This talk will discuss how we can use FPGAs for signal processing, and how we can use the power of this technology to accelerate machine learning models for audio and sensor processing, considering binary represenations of sound, and binary logic networks for machine learning.</p>
+
+      <h2 id="temprano-talk"><b>12:00: </b><a href="#temprano">Adán Benito Temprano</a> and <a href="#wegener">Clemens Wegener</a> — Low Latency Interaction With Bela: What, Why and How?</h2>
+
+      <p>Bela is an open-source embedded computing platform developed for creating real-time high-quality, ultra-low latency interactive systems with audio and sensors. The Bela platform is built on top of the BeagleBone single-board computer and comprises specific hardware and a custom hard-real time audio environment based on Xenomai Linux, which is capable of submillisecond round-trip audio latencies and nearly jitter-free alignment of digital, analog and audio I/O.</p>
+      <p>In this talk, we will discuss what the sources of latency in an interactive system are, their implications and how we built our platform to tackle these.</p>
 
       <h2 id="rushton-talk"><b>12:30: </b><a href="#rushton">Thomas Rushton</a> — Microcontroller-Based Network Client Towards Distributed Spatial Audio</h2>
 
@@ -312,6 +317,14 @@
       <p>The goal of this workshop is to discover the first audio DSP compiler targeting FPGAs using the Faust programming language. Field Programmable Gate Arrays (FPGAs) provide unparalleled audio latency and computational power, making them a better fit for audio processing than traditional CPUs. But programming them is extremely complex and out of reach to non-specialized engineers as well as to most people in the audio community. That's where Faust comes to the rescue!</p>
       <p>By the end of the workshop, you should be able to compile your own DSP on a Xilinx FPGA using the opensource SyFaLa toolchain and control it in real-time (either with a software interface or a hardware board). You should also have a good global understanding of the possibility that such a platform has to offer for real-time audio processing.</p>
 
+      <h2 id="temprano-workshop"><b>16:00: </b><a href="#temprano">Adán Benito Temprano</a> and <a href="#wegener">Clemens Wegener</a> — Interactive Audio and Haptics On Bela</h2>
+
+      <p>This hands-on workshop introduces Bela (http://bela.io), an embedded maker platform for responsive audio and sensor processing. Bela can be used to create digital musical instruments, synthesisers and other interactive projects, which can be developed in C/C++, Pure Data, Faust and Supercollider, amongst other languages. The platform features an on-board browser-based IDE and oscilloscope for getting started quickly, onboard examples and documentation, and online community resources.</p>
+
+      <p>This workshop will focus on prototyping low-latency audio and haptic applications based on simple concepts using C++. We will explore interactions with different sensors together with audio exciters (transducers).</p>
+
+      <p>Bela kits, breadboards, sensors and electronics will be provided for use during the workshop. Participants should bring their own laptop (no specific OS or software required other than a browser) with one free USB-A available to connect the Bela kit and a pair of headphones.</p>
+
       <hr>
 
       <h1 id="speakers">About the Speakers</h1>
@@ -327,6 +340,12 @@
 
       <h2 id="kiefer">Chris Kiefer</h2>
       <p>Chris Kiefer is a computer-musician, musical instrument designer and Lecturer in Music Technology at the University of Sussex, in the Experimental Music Technologies Lab. As a live coder he performs under the name 'Luuma'. He plays an augmented self-resonating cello as half of improv-duo Feeback Cell, and with the feedback-drone-quartet 'Brain Dead Ensemble'.  His research explores interaction design, complex systems and machine learning in musical instruments.</p>
+
+      <h2 id="temprano">Adán Benito Temprano</h2>
+      <p>Adan Benito is currently pursuing his PhD within the AI + Music programme at Queen Mary University of London in the Centre for Digital Music (C4DM). His research interests focus on the possibilities of gesture analysis and disambiguation on guitar performance for the design of expressive instrument augmentations. Adan holds an MSc on Sound and Music Computing from Queen Mary University of London, and a Telecommunications Engineering Degree and an MSc in Radio Communications from University of Cantabria. Since 2018 he has been one of the core developers behind Bela (bela.io). Besides that, he has a passion for all things related to guitar experimentation, from technology to techniques and repertoire.</p>
+
+      <h2 id="wegener">Clemens Wegener</h2>
+      <p>Clemens Wegener holds a Master’s degree in Computer Science and Media from Bauhaus-Universität Weimar. He completed a Bachelor’s degree in musicology at the Hochschule für Musik Franz Liszt Weimar. He works as a research assistant and lecturer in Interface Design at Bauhaus-UniAdan Benito is currently pursuing his PhD within the AI + Music programme at Queen Mary University of London in the Centre for Digital Music (C4DM). His research interests focus on the possibilities of gesture analysis and disambiguation on guitar performance for the design of expressive instrument augmentations. Adan holds an MSc on Sound and Music Computing from Queen Mary University of London, and a Telecommunications Engineering Degree and an MSc in Radio Communications from University of Cantabria. Since 2018 he has been one of the core developers behind Bela (bela.io). Besides that, he has a passion for all things related to guitar experimentation, from technology to techniques and repertoire.versität Weimar. His research focuses on digital and analog sound synthesis as well as musical interfaces. With a background of music production and live performance he can establish connections between classical musical instruments and modern technologies. He is co-founder of the Center for Haptic Audio Interaction Research (CHAIR) and develops electronic musical instruments as well as software with them. CHAIR has an ongoing collaboration with Bela.</p>
 
       <h2 id="rushton">Thomas Rushton</h2>
       <p>Thomas Rushton is a student on the Sound and Music Computing MSc program at Aalborg University in Copenhagen. Currently an intern on Inria's EMERAUDE (Embedded Programmable Audio Systems) team, his work on digital musical instrument design has appeared in the proceedings of 2022's SMC conference; he was also a contributor to the 2022 Interactive Sonification workshop, presenting his work on interactive auditory biofeedback for runners.</p>
