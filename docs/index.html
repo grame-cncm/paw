@@ -35,7 +35,7 @@
             <a data-toggle="dropdown" class="nav-link dropdown-toggle" href="">Program</a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="#program-overview">Overview</a>
-              <a class="dropdown-item" href="#program-details">Details</a>
+              <a class="dropdown-item" href="#program-details">Details and Videos</a>
               <a class="dropdown-item" href="#speakers">About the Speakers</a>
             </div>
           </li>
@@ -55,8 +55,7 @@
           <img class="first-slide" src="img/banner.png" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <a style="font-size: 40px;" class="btn btn-lg btn-primary" href="#program-overview" role="button">Check the Program Out!</a><br><br>
-              <a style="font-size: 40px;" class="btn btn-lg btn-primary" href="https://www.youtube.com/@grame-centrenationaldecrea9100/streams" role="button">Live Stream!</a>
+              <a style="font-size: 40px;" class="btn btn-lg btn-primary" href="#program-overview" role="button">Watch the Talks!</a>
             </div>
           </div>
         </div>
@@ -301,17 +300,35 @@
 
       <hr>
 
-      <h1 id="program-details">Program Details</h1>
+      <h1 id="program-details">Program Details and Videos</h1>
 
       <h2 id="alexandre-talk"><b>09:30:</b> <a href="#alexandre">Loïc Alexandre</a> — Feedback Acoustic Noise Control with Faust on FPGA: Application to Noise Reduction in Headphones</h2>
+
+      <p>
+      <center>
+      <iframe width="800" height="450" src="https://www.youtube.com/embed/D4B8WGU9NhE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </center>
+      </p>
 
       <p>This work studies the feedback Active Noise Control (ANC) in a headphone with a digital filter implemented on a FPGA instead of an analog filter, in the context of a pedagogical practice bench. The digital approach allows greater flexibility in setting the feedback ANC filter but brings an additional latency that can compromise the ANC efficiency. The principle of feedback ANC in headphones is reviewed and the choice of a biquadratic filter as a feedback ANC filter is argued. The digital filter is programmed in the FAUST language and compiled on a FPGA platform. An experimental validation is carried out to compare the attenuation performance between the digital and analog biquadratic filters. The results show similar or even better low frequency attenuation for some configurations of the digital biquadratic filter compared to the analog filter. Finally, a digital filter cascading two biquads is studied and shows a bandwidth broadening where the ANC is effective.</p>
 
       <h2 id="lopez-talk"><b>10:00: </b><a href="#lopez">Fernando Lopez-Lezcano</a> — Audio Processing and Streaming for the Quarantine Sessions, a Distributed Jam Session Concert Series</h2>
 
+      <p>
+      <center>
+      <iframe width="800" height="450" src="https://www.youtube.com/embed/Hj3MeVhHrFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </center>
+      </p>
+
       <p>The "Quarantine Sessions" is a geographically distributed streamed weekly concert / jam session that started after the pandemic isolated us. The core group has two members in Berlin, one in Belgium and three in California, and guests from all over the world are regularly invited to participate. We have played together more than 100 times since we started. We describe the current state of the audio streaming and signal processing signal chain and its user interface, and its evolution from its simple beginnings. It currently uses a customized Jacktrip server and software written in SuperCollider. The software spatializes the multiple client streams in 3d space using Ambisonics, locates them in a virtual space, and provides a final binaural and real-time mastered mix to the participants, and to the final streaming service being used. All the software is free, open source, and available online.</p>
 
       <h2 id="popoff-talk"><b>10:30: </b><a href="#popoff">Maxime Popoff</a> — High-Level Programming of FPGAs with FAUST for Real-Time Audio Signal Processing Applications</h2>
+
+      <p>
+      <center>
+      <iframe width="800" height="450" src="https://www.youtube.com/embed/5AS32yGsfKo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </center>
+      </p>
 
       <p>Field Programmable Gate Arrays (FPGAs) are very powerful embedded platforms that present significant advantages over other types of processors for real-time audio signal processing applications. Their design makes them very suitable for high parallelization and ultra fast data processing, enabling unequaled performances for audio DSP in terms of latency, throughput, sampling rate, and number of channels.</p>
       <p>However, programming them is complex and out of reach to non-specialized engineers as well as to most people in the audio community. With the aim of having a comprehensive environment to program audio DSP on FPGAs, we present a fully open-source system that compiles any FAUST program down to FPGA hardware and up to actual sound production.</p>
@@ -319,14 +336,32 @@
 
       <h2 id="kiefer-talk"><b>11:30: </b><a href="#kiefer">Chris Kiefer</a> — Signal Processing with Machine Learning on FPGAs</h2>
 
+      <p>
+      <center>
+      <iframe width="800" height="450" src="https://www.youtube.com/embed/7acgNpoqQ54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </center>
+      </p>
+
       <p>Fied Programmable Gate Arrays (FPGAs) enable us to make customised logic circuits in hardware. Recently, open source projects have made this technology more accessible for non-industrial users.  FPGAs can generate and process sound with extremely high speed and low latency compared to conventional computers, although they are also limited by memory and lack of specialist processing (e.g floating point units).  This talk will discuss how we can use FPGAs for signal processing, and how we can use the power of this technology to accelerate machine learning models for audio and sensor processing, considering binary represenations of sound, and binary logic networks for machine learning.</p>
 
       <h2 id="temprano-talk"><b>12:00: </b><a href="#temprano">Adán Benito Temprano</a> and <a href="#wegener">Clemens Wegener</a> — Low Latency Interaction With Bela: What, Why and How?</h2>
+
+      <p>
+      <center>
+      <iframe width="800" height="450" src="https://www.youtube.com/embed/XlFWcFtt5vA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </center>
+      </p>
 
       <p>Bela is an open-source embedded computing platform developed for creating real-time high-quality, ultra-low latency interactive systems with audio and sensors. The Bela platform is built on top of the BeagleBone single-board computer and comprises specific hardware and a custom hard-real time audio environment based on Xenomai Linux, which is capable of submillisecond round-trip audio latencies and nearly jitter-free alignment of digital, analog and audio I/O.</p>
       <p>In this talk, we will discuss what the sources of latency in an interactive system are, their implications and how we built our platform to tackle these.</p>
 
       <h2 id="rushton-talk"><b>12:30: </b><a href="#rushton">Thomas Rushton</a> — Microcontroller-Based Network Client Towards Distributed Spatial Audio</h2>
+
+      <p>
+      <center>
+      <iframe width="800" height="450" src="https://www.youtube.com/embed/zxBxVgEDC8k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </center>
+      </p>
 
       <p>Rising interest in virtual and augmented reality experiences has put increased focus on research into sophisticated audio spatialisation techniques such as Wave Field Synthesis and Ambisonics. These techniques typically call for the use of large numbers of loudspeakers and a centralised digital signal processing (DSP) system; as such they are limited by the bandwidth/throughput of that system, and can be very costly, relying on specialist hardware for delivering multichannel audio output.</p>
       <p>We propose a hardware module, based on a low-cost microcontroller, that can receive audio and control-data streams over Ethernet and deliver output to connected loudspeakers. Though reliant on a central server to send data streams to the clients, part of the DSP required to implement various spatialisation techniques takes place directly on the module, thus representing a distributed computing approach. The system is lightweight, open-source, generic in application, and scalable to large numbers of clients. In addition to spatial audio implementations, it can support and enhance -- with its accessibility and low-latency -- the kind of remote rehearsal and concert situations that rose to prominence during the COVID-19 pandemic.</p>
@@ -336,9 +371,21 @@
 
       <h2 id="lecomte-workshop"><b>14:30: </b><a href="#lecomte">Pierre Lecomte</a> — The Spatbox: an Autonomous Hardware Interface to Spatialize Sound</h2>
 
+      <p>
+      <center>
+      <iframe width="800" height="450" src="https://www.youtube.com/embed/naxXtvsIyNI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </center>
+      </p>
+
       <p>The spatbox project aims at developing an autonomous hardware interface to spatialize sound and build a spatial audio soundscape on a loudspeaker array. It is a box in the shape of a synthesizer on which analog signals are entered, the buttons and sliders are used to define the sources trajectories and the analog audio outputs are directly the driving signals of the loudspeakers. Under the hood, the trajectory engine uses parametric LFOs for each spatial coordinate and the ambisonic spatialization engine is powered by ambitools. The trajectories can be visualized on an additional screen and spatial sound effects can also be integrated. A demonstration booth will be available to show you the possibilities offered by the spatbox.</p>
 
       <h2 id="kiefer-workshop"><b>15:00: </b><a href="#kiefer">Chris Kiefer</a> — A Guide to Sound Synthesis on Open Source FPGAs</h2>
+
+      <p>
+      <center>
+      <iframe width="800" height="450" src="https://www.youtube.com/embed/hZf5rSWLdaM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </center>
+      </p>
 
       <p>Field Programmable Gate Arrays (FPGAs) are great tools for sound synthesis, enabling us to create programmable hardware synthesisers that can run complex audio processors at high speeds.  This workshop is a guide to the open source ecosystem that is growing around FPGAs, and increasing access for artists and hobbyists.  We will look at the different FPGA hardware that fits into the open source toolchains, and the software environments for programming this hardware.  Finally, we will explore some basic techniques for sound synthesis using binary logic, and easy ways to listen to these sounds on FPGAs, using DIY digital-to-analogue convertors.</p>
 
@@ -350,10 +397,22 @@
 
       <h2 id="popoff-workshop"><b>16:30: </b><a href="#popoff">Maxime Popoff</a> — Faust Programming on FPGA for High Performance Real-Time Audio Signal Processing</h2>
 
+      <p>
+      <center>
+      <iframe width="800" height="450" src="https://www.youtube.com/embed/h98bpNhtwx0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </center>
+      </p>
+
       <p>The goal of this workshop is to discover the first audio DSP compiler targeting FPGAs using the Faust programming language. Field Programmable Gate Arrays (FPGAs) provide unparalleled audio latency and computational power, making them a better fit for audio processing than traditional CPUs. But programming them is extremely complex and out of reach to non-specialized engineers as well as to most people in the audio community. That's where Faust comes to the rescue!</p>
       <p>By the end of the workshop, you should be able to compile your own DSP on a Xilinx FPGA using the opensource SyFaLa toolchain and control it in real-time (either with a software interface or a hardware board). You should also have a good global understanding of the possibility that such a platform has to offer for real-time audio processing.</p>
 
       <h2 id="temprano-workshop"><b>17:30: </b><a href="#temprano">Adán Benito Temprano</a> and <a href="#wegener">Clemens Wegener</a> — Interactive Audio and Haptics On Bela</h2>
+
+      <p>
+      <center>
+      <iframe width="800" height="450" src="https://www.youtube.com/embed/k53Y8J6h7VA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </center>
+      </p>
 
       <p>This hands-on workshop introduces Bela (http://bela.io), an embedded maker platform for responsive audio and sensor processing. Bela can be used to create digital musical instruments, synthesisers and other interactive projects, which can be developed in C/C++, Pure Data, Faust and Supercollider, amongst other languages. The platform features an on-board browser-based IDE and oscilloscope for getting started quickly, onboard examples and documentation, and online community resources.</p>
 
