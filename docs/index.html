@@ -35,8 +35,9 @@
             <a data-toggle="dropdown" class="nav-link dropdown-toggle" href="">Program</a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="#program-overview">Overview</a>
-              <a class="dropdown-item" href="#program-details">Details and Videos</a>
+              <a class="dropdown-item" href="#program-details">Details</a>
               <a class="dropdown-item" href="#speakers">About the Speakers</a>
+              <a class="dropdown-item" href="#syfala">Dec. 1: Faust/FPGA Workshop</a>
             </div>
           </li>
           <li class="nav-item">
@@ -258,8 +259,6 @@
 
       <h1 id="program-details">Program Details</h1>
 
-      <p>This section will be updated on the fly we additional information as we get closer to PAW-23.</p>
-
       <h2 id="braun-talk"><b>09:30:</b> <a href="#braun">David Braun</a> — Machine Learning with Faust and JAX</h2>
 
       <p>In most examples of modern machine learning, ML practitioners use Python to design complex mathematical models that can be auto-differentiated and then optimized via stochastic gradient descent in order to maximize some objective. Audio engineers, however, don't use Python because it lacks the elegant syntax and powerful libraries of an audio domain-specific language (DSL) such as Faust. We present a pipeline which is one of the first of its kind to bridge the gap between a library-rich audio DSL and a powerful auto-diff ML framework. This Faust-to-<a href="https://jax.readthedocs.io/en/latest/">JAX</a> pipeline allows audio engineers to auto-differentiate DSP functions that would have been too time-consuming to re-implement in Python or difficult to differentiate manually.  Once Faust code is converted to JAX, the XLA compiler produces well-optimized code that scales well in cloud-computing systems. We present several early experiments showing our pipeline's potential to optimize audio-related objectives.</p>
@@ -281,15 +280,15 @@
 
       <h2 id="braun-workshop"><b>14:00: </b><a href="#braun">David Braun</a> — Faust and AI Workshop</h2>
 
-      <p>More details soon...</p>
+      <p>Hands-on workshop following up on the tools presented during the morning session.</p>
 
       <h2 id="puckette-workshop"><b>15:00: </b><a href="#puckette">Miller Puckette</a> — PureData and AI Workshop</h2>
 
-      <p>More details soon...</p>
+      <p>Hands-on workshop following up on the tools presented during the morning session.</p>
 
       <h2 id="betancur-workshop"><b>16:30: </b><a href="#betancur">Celeste Betancur</a> — Chuck and AI Workshop</h2>
 
-      <p>More details soon...</p>
+      <p>Hands-on workshop following up on the tools presented during the morning session.</p>
 
       <hr>
 
@@ -332,7 +331,7 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11129.76460691061!2d4.876405!3d45.782389!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4c01fc39536dd%3A0x8d2619eada764a4d!2sMarie%20Curie%20Library!5e0!3m2!1sen!2sfr!4v1695379931779!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </center>
       <p style="font-size: 1.2rem;">The easiest way to get there from the city center is to take the tramway T1 or T4 and stop at "INSA - Einstein." Cycling is also a good solution :). The closest hotels are in the Charpennes neighborhood.</p>
-      <p style="font-size: 2rem;">Feel free to send your questions to <a href="#">paw_at_grame_dot_fr</a>.</p>
+      <p style="font-size: 2rem;">Feel free to send your questions to <a href="mailto:paw@grame.fr">paw@grame.fr</a>.</p>
       <p>
         <b>Some suggestions for getting lunch:</b><br>
         <ul>
@@ -341,6 +340,71 @@
           <li>L'atelier Salengro: <a href="https://goo.gl/maps/RKEnYXLx7Bd8aWhA9">https://goo.gl/maps/RKEnYXLx7Bd8aWhA9</a> (bakery, cheap option)</li>
         </ul>
       </p>
+
+      <h1 id="syfala">Bonus Event: Faust/FPGA Workshop<br>on Dec. 1, 2023 @ CITI Lab (Lyon)</h1>
+
+      <h2 style="margin-top: -2rem;"><i>Experimenting With the Faust to FPGA Compilation Flow Using Grid5000</i></h2>
+
+      <p style="font-size: 1.25rem;">The goal of this hands-on workshop is to learn the fundamentals of FPGA programming for real-time audio Digital Signal Processing (DSP) applications. It focuses on the Syfala toolchain: the first open-source audio DSP compiler targeting FPGAs using the Faust programming language.</p>
+
+      <p>Field-Programmable Gate Arrays (FPGAs) provide unparalleled audio latency and computational power. In many cases, they are a a better fit for real-time audio processing applications than "traditional" CPUs. These embedded platforms can easily handle audio DSP programs with hundreds of channels while guaranteeing very low latency. This allows for the design of systems with unmatched performances and unique features for spatial audio, noise cancelling, active control of room acoustics etc. However, programming FPGAs is very complex and out of reach to non-specialized engineers as well as to most people in the audio community. Syfala uses the Faust compiler as well as the Xilinx HLS tool to solve this issue and program Digilent Zybo FPGA boards. Given that Xilinx tools installation is very complex, we propose to use the Grid5000 platform which allows us to provide pre-configured remote machine with Xilinx tool and Syfala installed on them.
+
+      <p>This workshop is associated with PAW 2023 which takes place the following day.</p>
+
+      <p><b>PLEASE NOTE:</b> This workshop will imply non trivial hands-on tutorials including SSH connection to Grid5000. Please make sure to read the technical instructions and prerequisites below before registering. For any information please contact us (<a href="mailto:paw@grame.fr">paw@grame.fr</a>)</p>
+
+      <h3>Practical Information</h3>
+
+      <ul>
+        <li><b>Where:</b> INSA Lyon, Hedy Lamarr building, TD-C Room, 6 avenue des arts, Villeurbanne, France</li>
+        <li><b>When:</b> December 1st 2023, 9h-18h</li>
+      </ul>
+
+      <h3>Registration</h3>
+
+      <p>Registration to this <b>IN-PERSON ONLY</b> workshop is mandatory. A 20 euros fee including lunch, coffee breaks, etc. will have to be paid by participants (additional information on how to make the payment will be sent to participants after registration). The workshop is limited to 10 people (first come, first served).</p>
+
+      <p style="font-size: 1.25rem;">To register to the Faust/FPGA workshop, please fill out <b><a href="https://forms.gle/4sNzaeuK6V62cUty9">this form</a></b>. <b>WARNING 1: this form is not the same as the PAW-23 one (these are 2 separate events). WARNING 2: filling this form does not automatically secure a seat at the workshop. You will receive a confirmation within a week that your seat at the workshop is guarantied, or not...</b></p>
+
+      <h3>Program</h3>
+
+      <p>
+        <ul>
+          <li>08h30: Welcome and coffee (Room TD-C, first floor of Hedy Lamarr building)</li>
+          <li>09h00: Faust/FPGA Workshop Introduction (Tanguy Risset)</li>
+          <li>09h30: Introduction to Faust Langage (Yann Orlarey)</li>
+          <li>10h00: Hands-on Faust Language (Yann Orlarey)</li>
+          <li>10h30: Introduction to FPGA (Maxime Popoff)</li>
+          <li>11h00: Introduction to Syfala Workflow (Pierre Cochard)</li>
+          <li>11h30: Hands-on: Connecting to Grid5000 and launching docker container (Syfala Team)</li>
+          <br>
+          <li>12h30: Lunch (provided on site)</li>
+          <br>
+          <li>14h00: Hands-on: Running Syfala Linux Workfkow</li>
+          <li>15h30: Advanced Syfala Use (Pierre Cochard, Maxime Popoff, Romain Michon)</li>
+          <li>16h30: Hands-on sand box: free experimental Audio to FPGA programming</li>
+          <li>18h00: End</li>
+        </ul>
+      </p>
+
+      <h3>Technical Instructions and Prerequisites</h3>
+
+      <p>Although Syfala's goal is to facilitate FPGA programming for audio application, its use requires technical skills in programming and UNIX systems.</p>
+      <p>
+        <ul>
+          <li><b>What you will need to bring:</b> Attendees will work on their own laptop. This laptop should include Wifi connectivity, an Ethernet port, and USB 2 port (i.e., USB 2 adapter if needed).</li>
+          <li><b>What you need to know:</b> We expect participant to have the following prerequisites: basic C++ programming, SSH connection configuration, Ethernet network configuration, basic bash shell commands</li>
+          <li><b>We expect participants</b> to take the following actions <b>before the day of the workshop</b>:</li>
+          <ul>
+            <li>Register to the workshop before November 15th, 2023</li>
+            <li>Create an account on <a href="https://www.grid5000.fr/w/Grid5000:Get_an_account">Grid5000</a> (using Lyon-misc as group granting access)</li>
+            <li>Provide your SSH public key on Grid5000</li>
+            <li>Send us your Grid5000 login ID (<a href="mailto:paw@grame.fr">paw@grame.fr</a>)</li>
+            <li>We will lend to all attendees a Zybo board and an SD card to boot Linux on the Zybo</li>
+          </ul>
+        </ul>
+      </p>
+
     </div>
 
     <footer class="footer">
